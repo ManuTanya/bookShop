@@ -1,0 +1,141 @@
+body
+{
+    background-color: #f6e1a2;
+    margin: 0;
+    padding: 0;
+}
+
+.main_t
+{
+    width: 85%;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-shadow: black 0 0 10px;
+}
+
+.logo
+{
+    margin-top: 10px;
+    //margin-left: 7%;
+    background-color: #784928;
+    color: #fff7f2;
+    height: 230px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-style: groove;
+    border-color: #ffc79f;
+    border-width: 20px;
+}
+
+.logo h1
+{
+    font-size: 100px;
+    font-family: "Monotype Corsiva";
+}
+
+.logo a
+{
+    margin-top: -30px;
+    color: #fbd6cd;
+    padding-left: 10px;
+}
+
+.content
+{
+    background-color: #fff3f0;
+    padding: 30px;
+}
+
+.error_div
+{
+    background-color: lightpink;
+    color: darkred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.book_table
+{
+    text-align: center;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+.book_table td,th
+{
+    border: #3b2414 solid 1px;
+    padding: 5px;
+    color: #1c0f05;
+}
+
+.book_table .header
+{
+    font-weight: bold;
+}
+
+.table_tittle
+{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sp_writters
+{
+    font-size: 25px;
+    color: #3b2414;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sp_writters ul
+{
+    margin: 15px auto;
+    font-size: 20px;
+    color: #784928;
+    font-weight: normal;
+}
+
+.sp_writters_show_edit li
+{
+    margin: 40px auto;
+    font-size: 25px;
+}
+
+.sp_writters_show_edit li ul li
+{
+    margin: 10px auto;
+}
+
+.form_edit, .select_Wr
+{
+    width: 300px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.bt_save
+{
+    width: 150px;
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+input.bt_del
+{
+    width:20px;
+    height:20px;
+    background-image:url("http://bookshop/image/delete.png");
+    background-size: 15px 15px;
+}
+
+
