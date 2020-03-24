@@ -2,6 +2,7 @@
 
 @section('menu')
     <a href="/" class="admin"> Публичная часть</a>
+    <a href="/logout" class="admin"> Выйти</a>
 @endsection
 
 @section('content')
